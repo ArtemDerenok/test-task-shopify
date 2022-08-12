@@ -184,4 +184,15 @@
   .heading_font-size {
     font-size: 38px;
   }
+  .card_size {
+    max-width: 340px;
+  }
+  
+  .card__link_size {
+    max-width: 292px;
+  }
+  
+  .card__image_size {
+    max-width: 340px;
+  }
 }
