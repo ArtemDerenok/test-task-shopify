@@ -1,1 +1,187 @@
 /* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.heading_text-a {
+  text-align: center;
+}
+
+.heading_font-size {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.container_flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container_margin-t {
+  margin-top: 40px;
+}
+
+.card {
+  position: relative;
+}
+
+.card_size {
+  max-width: 380px;
+  height: 482px;
+  border-radius: 12px;
+}
+
+.card_shadows {
+  box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+}
+
+.card__image-container {
+  width: 100%;
+}
+
+.card__image {
+  border-radius: 12px 12px 0px 0px;
+}
+
+.card__heading {
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.card__heading-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.card__heading-text_font-size {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 900;
+}
+
+.card__heading-text_color {
+  color: #2F2F2F;
+}
+
+.card__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  margin: 16px 24px 0px 24px;
+}
+
+.card__text_font-size {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.card__text_color {
+  color: #2F2F2F;
+}
+
+.card__link {
+  position: absolute;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #42940F;
+  margin-left: 24px;
+  bottom: 24px;
+}
+
+.card__link_radius {
+  border-radius: 8px;
+}
+
+.card__link_size {
+  width: 332px;
+  height: 48px;
+}
+
+.card__link_color {
+  color: #42940F;
+}
+
+.card__link_font_size {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.card__link_hover:hover {
+  background-color: #42940F;
+  color: white;
+}
+
+.card__link_active:active {
+  border-color: #1F5200;
+  background-color: #1F5200;
+  color: white;
+}
+
+.card__link_disabled {
+  border-color: #4E4E4E;
+  background-color: #4E4E4E;
+  color: white;
+  cursor: not-allowed;
+}
+
+.labels_position {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.labels_flex {
+  display: flex;
+}
+
+.labels_gap {
+  gap: 16.73px;
+}
+
+.labels__item {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.labels__item_font-size {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.labels__item_radius {
+  border-radius: 8px;
+}
+
+.labels__item_background-color-pi {
+  background-color: #FDCFF3;
+}
+
+.labels__item_background-color-or {
+  background-color: #FFCF56;
+}
+
+@media (max-width: 500px) {
+  .heading_font-size {
+    font-size: 38px;
+  }
+}
