@@ -33,9 +33,6 @@ body {
 }
 
 .figure__image {
-    transform: translateX(-4214px) rotate(720deg);
-    position: relative;
-    left: 4214px;
     height: auto; 
     max-width: 100%; 
 }
